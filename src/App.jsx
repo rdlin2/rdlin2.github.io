@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import {React} from 'react'
+// import {React} from 'react'
 import { HashRouter as Router,Route,Switch,Link} from 'react-router-dom';
 import About from './pages/ ';
 import WorkExperience from './pages/WorkExperience ';
