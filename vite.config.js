@@ -4,6 +4,6 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-
-  base: '/rdlin2-github.io', 
+  base:'/',
+  // base: '/rdlin2-github.io', 
 })

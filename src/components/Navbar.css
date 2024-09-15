@@ -1,0 +1,106 @@
+/* Navbar Styling */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff; /* White background for navbar */
+    color: #000000; /* Black text color */
+    padding: 1rem 2rem; /* Padding for better spacing */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for separation */
+    z-index: 1000; /* Ensure navbar stays on top */
+    display: flex; /* Flexbox for layout */
+    justify-content: space-between; /* Space out items */
+    align-items: center; /* Center items vertically */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+  }
+  
+  .navbar-links{
+    display:flex; 
+    justify-content:space-between;
+    margin: 0 1.5rem;
+  }
+  .navbar-links a{
+    display:flex;
+    justify-content:space-between;
+    margin:0 1.5rem;
+    
+  }
+  /* Navbar Links */
+  nav ul {
+    display: flex; /* Flexbox for horizontal layout */
+    list-style: none; /* Remove default list styling */
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    margin: 0 1.5rem; /* Horizontal spacing between navbar items */
+    position: relative; /* For pseudo-element positioning */
+  }
+  
+  /* Navbar Links Styling */
+  nav ul li a {
+    color: #000000; /* Black text color */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth color transition */
+    display: inline-block; /* Ensure padding and margins are respected */
+  }
+  
+  /* Hover and Active States */
+  nav ul li a:hover,
+  nav ul li a.active {
+    color: #007acc; /* Blue color for hover and active states */
+  }
+  
+  /* Adding Visual Separation */
+  nav ul li::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -5px; /* Position below the item */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px; /* Thickness of the separator */
+    background-color: #007acc; /* Blue color for separator */
+    transition: width 0.3s ease; /* Smooth transition for separator */
+  }
+  
+  nav ul li:hover::after,
+  nav ul li a.active::after {
+    width: 100%; /* Full width on hover or active state */
+  }
+  
+  /* Responsive Navbar */
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column; /* Stack items vertically on small screens */
+      padding: 1rem;
+      overflow-x: hidden; /* Prevent horizontal scroll on small screens */
+    }
+  
+    nav ul {
+      flex-direction: column; /* Stack navbar items vertically on small screens */
+      width: 100%;
+      margin-top: 1rem;
+      padding: 0;
+    }
+  
+    nav ul li {
+      margin: 0; /* Remove margin for vertical layout */
+      margin-bottom: 1rem; /* Spacing between navbar items */
+      text-align: center; /* Center align text */
+      position: relative; /* For pseudo-element positioning */
+    }
+  
+    nav ul li::after {
+      content: none; /* Remove the separator in vertical layout */
+    }
+  
+    nav ul li a {
+      font-size: 1.2rem; /* Larger font size for better readability on small screens */
+    }
+  }
+  

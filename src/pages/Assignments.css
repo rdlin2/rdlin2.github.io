@@ -1,0 +1,96 @@
+/* Ensure the parent container (body and html) take full width and height */
+html, body {
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow-x: hidden; /* Prevent horizontal scroll */
+  }
+  
+  /* Full-width container for assignments */
+  .assignments-container {
+    padding: 2rem; /* Padding around the content */
+    width: 100vw; /* Full width of the parent container */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    background-color: #000; /* Black background for the container */
+    margin-top: 60px; /* Adjust margin to avoid overlapping with navbar */
+    margin-bottom: 2rem; /* Space below the container */
+  }
+  
+  /* Heading styling */
+  .assignments-container h1 {
+    margin: 0 0 1rem 0; /* Space below heading */
+    padding: 0; /* Remove padding */
+    font-size: 2rem; /* Font size for heading */
+    color: #ffffff; /* White color for better contrast against black */
+  }
+  
+  /* Card container */
+  .card-container {
+    padding: 2rem; /* Padding inside card container */
+    border: 1px solid #ddd; /* Border around card container */
+    border-radius: 8px; /* Rounded corners for card container */
+    background-color: #f9f9f9; /* Background color for card container */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional shadow for card container */
+    width: 100%; /* Full width of viewport */
+    max-width: 100%; /* Full width of viewport */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    margin-top: 1rem; /* Space above card container */
+  }
+  
+  /* Grid layout for assignment cards */
+  .assignments-grid {
+    display: flex; /* Flex layout for vertical stacking */
+    flex-direction: column; /* Stack cards vertically */
+    gap: 1.5rem; /* Space between cards */
+  }
+  
+  /* Individual assignment card */
+  .assignment-card {
+    background-color: #ffffff; /* White background */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 1.5rem; /* Padding inside card */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional shadow for better visibility */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+    width: 100%; /* Full width of card container */
+    max-width: 100%; /* Full width of card container */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+  }
+  
+  .assignment-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Enhanced shadow on hover */
+  }
+  
+  /* Card title */
+  .assignment-title {
+    font-size: 1.2rem; /* Font size for title */
+    margin-bottom: 0.5rem; /* Space below title */
+    color: #333; /* Dark color for title */
+  }
+  
+  /* Card description */
+  .assignment-description {
+    font-size: 1rem; /* Font size for description */
+    margin-bottom: 1rem; /* Space below description */
+    color: #666; /* Description color for better contrast */
+  }
+  
+  /* Button styling */
+  .assignment-button {
+    display: inline-block; /* Inline block for button */
+    background-color: #007bff; /* Blue background color */
+    color: #ffffff; /* White text color */
+    text-decoration: none; /* Remove underline */
+    padding: 0.5rem 1rem; /* Padding inside button */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 1rem; /* Font size for button */
+    text-align: center; /* Center text */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+  }
+  
+  .assignment-button:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+  }
+  

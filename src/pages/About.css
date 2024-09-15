@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap');
+
+/* Ensure navbar spacing */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Code Pro', monospace;
+  background-color: #f4f4f4; /* Light background for better contrast */
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff; /* White background for navbar */
+  color: #000000; /* Black text color */
+  padding: 1rem 2rem; /* Adjust padding for better spacing */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000; /* Ensure navbar stays on top */
+}
+
+/* Main content adjustment to avoid overlapping with navbar */
+.main-content {
+  padding-top: 80px; /* Ensure this value matches the height of your fixed navbar */
+  margin: 0 auto;
+}
+
+/* About page styles */
+.about-container {
+  padding: 2rem;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+h1 {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 2.5rem; /* Adjust size as needed */
+  color: #003366; /* Dark blue color for better contrast */
+  background-color: #f0f8ff; /* Light blue background for the heading */
+  padding: 1rem; /* Padding for readability */
+  border-radius: 8px; /* Rounded corners for heading background */
+  text-align: center; /* Center align heading */
+  margin-bottom: 2rem; /* Spacing below heading */
+}
+
+.intro {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 1.2rem; /* Adjust size as needed */
+  color: #333; /* Dark gray for text */
+  line-height: 1.6;
+  margin: 0 auto;
+  max-width: 800px; /* Adjust width to fit design */
+  text-align: center; /* Center align text */
+  margin-bottom: 2rem; /* Spacing below intro */
+}
+
+/* Card Container */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem; /* Spacing between cards */
+  justify-content: center; /* Center align cards */
+}
+
+/* Individual Card Styling */
+.card {
+  background-color: #ffffff; /* White background for cards */
+  border: 1px solid #e0e0e0; /* Light gray border for separation */
+  border-radius: 8px; /* Rounded corners */
+  padding: 1.5rem; /* Padding inside card */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Shadow for card depth */
+  width: 100%; /* Full width for card up to max-width */
+  max-width: 400px; /* Maximum width for each card */
+  margin-bottom: 1.5rem; /* Spacing between cards */
+  text-align: left; /* Align text to the left inside card */
+}
+
+.card h2 {
+  font-size: 1.5rem; /* Title font size */
+  color: #003366; /* Dark blue color for the card title */
+  margin-bottom: 0.5rem; /* Spacing below title */
+}
+
+.card p {
+  font-size: 1rem; /* Description font size */
+  color: #555; /* Gray color for description text */
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  color: #ffffff;
+  background-color: #007acc; /* Blue button background */
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.card a:hover {
+  background-color: #005f8d; /* Darker blue on hover */
+}

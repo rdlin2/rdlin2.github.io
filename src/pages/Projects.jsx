@@ -1,9 +1,12 @@
-// import React from 'react';
+
+import './Projects.css'; // Import the CSS for Projects
 
 const Projects = () => (
-  <div>
+  <div className="page-container">
     <h1>Projects</h1>
-    <p>A showcase of my projects goes here.</p>
+    <div className="content-card">
+      <p>Details of projects go here.</p>
+    </div>
   </div>
 );
 
