@@ -13,78 +13,82 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #ffffff; /* White background for navbar */
-  color: #000000; /* Black text color */
-  padding: 1rem 2rem; /* Adjust padding for better spacing */
+  background-color: #ffffff;
+  color: #000000;
+  padding: 1rem 2rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  z-index: 1000; /* Ensure navbar stays on top */
+  z-index: 1000;
 }
 
-/* Main content adjustment to avoid overlapping with navbar */
+
 .main-content {
-  padding-top: 80px; /* Ensure this value matches the height of your fixed navbar */
+  margin-top: 80px;
   margin: 0 auto;
 }
 
 /* About page styles */
 .about-container {
-  padding: 2rem;
-  margin: 0 auto;
-  max-width: 1200px;
+    display:flex;
+    flex-direction:column;
+    padding: 2rem;
+    margin: 60px auto;
+    max-width: 1200px;
+    justify-content: center;
+    align-items:center;
 }
 
 h1 {
   font-family: 'Source Code Pro', monospace;
-  font-size: 2.5rem; /* Adjust size as needed */
-  color: #003366; /* Dark blue color for better contrast */
-  background-color: #f0f8ff; /* Light blue background for the heading */
-  padding: 1rem; /* Padding for readability */
-  border-radius: 8px; /* Rounded corners for heading background */
-  text-align: center; /* Center align heading */
-  margin-bottom: 2rem; /* Spacing below heading */
+  font-size: 2.5rem; 
+  color: #003366; 
+  background-color: #f0f8ff; 
+  padding: 1rem; 
+  border-radius: 8px; 
+  text-align: center; 
+  margin-bottom: 2rem; 
 }
 
 .intro {
   font-family: 'Source Code Pro', monospace;
-  font-size: 1.2rem; /* Adjust size as needed */
-  color: #333; /* Dark gray for text */
+  font-size: 1.2rem; 
+  color: #333; 
   line-height: 1.6;
   margin: 0 auto;
-  max-width: 800px; /* Adjust width to fit design */
-  text-align: center; /* Center align text */
-  margin-bottom: 2rem; /* Spacing below intro */
+  max-width: 800px; 
+  text-align: center; 
+  margin-bottom: 2rem; 
 }
 
 /* Card Container */
 .card-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem; /* Spacing between cards */
-  justify-content: center; /* Center align cards */
+  gap: 2rem; 
+  justify-content: center; 
 }
 
 /* Individual Card Styling */
 .card {
-  background-color: #ffffff; /* White background for cards */
-  border: 1px solid #e0e0e0; /* Light gray border for separation */
-  border-radius: 8px; /* Rounded corners */
-  padding: 1.5rem; /* Padding inside card */
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Shadow for card depth */
-  width: 100%; /* Full width for card up to max-width */
-  max-width: 400px; /* Maximum width for each card */
-  margin-bottom: 1.5rem; /* Spacing between cards */
-  text-align: left; /* Align text to the left inside card */
+  background-color: #ffffff; 
+  border: 1px solid #e0e0e0; 
+  border-radius: 8px; 
+  padding: 1.5rem; 
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+  width: 100%; 
+  max-width: 400px; 
+  margin-bottom: 1.5rem; 
+  text-align: left; 
 }
 
 .card h2 {
-  font-size: 1.5rem; /* Title font size */
-  color: #003366; /* Dark blue color for the card title */
-  margin-bottom: 0.5rem; /* Spacing below title */
+  font-size: 1.5rem; 
+  color: #003366; 
+  margin-bottom: 0.5rem; 
 }
 
 .card p {
-  font-size: 1rem; /* Description font size */
-  color: #555; /* Gray color for description text */
+  font-size: 1rem; 
+  color: #555; 
 }
 
 .card a {
@@ -92,7 +96,7 @@ h1 {
   margin-top: 1rem;
   padding: 0.5rem 1rem;
   color: #ffffff;
-  background-color: #007acc; /* Blue button background */
+  background-color: #007acc; 
   border: none;
   border-radius: 4px;
   text-decoration: none;
@@ -100,5 +104,5 @@ h1 {
 }
 
 .card a:hover {
-  background-color: #005f8d; /* Darker blue on hover */
+  background-color: #005f8d; 
 }

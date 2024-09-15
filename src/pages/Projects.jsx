@@ -1,13 +1,36 @@
+import ProjectCard from '../components/ProjectCard';
+import './Projects.css';
 
-import './Projects.css'; // Import the CSS for Projects
+const Projects = () => {
+  const projects = [
+    {
+      title: 'Project One',
+      description: 'Brief description of Project One.',
+      link: 'https://github.com/yourusername/project-one'
+    },
+    {
+      title: 'Project Two',
+      description: 'Brief description of Project Two.',
+      link: 'https://github.com/yourusername/project-two'
+    },
 
-const Projects = () => (
-  <div className="page-container">
-    <h1>Projects</h1>
-    <div className="content-card">
-      <p>Details of projects go here.</p>
+  ];
+
+  return (
+    <div className="projects-container">
+      <h1>Projects</h1>
+      <div className="projects-grid">
+        {projects.map((project, index) => (
+          <ProjectCard 
+            key={index}
+            title={project.title}
+            description={project.description}
+            link={project.link}
+          />
+        ))}
+      </div>
     </div>
-  </div>
-);
+  );
+};
 
 export default Projects;

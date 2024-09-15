@@ -1,61 +1,61 @@
-/* Ensure the parent container (body and html) take full width and height */
+
 html, body {
-    margin: 0; /* Remove default margins */
-    padding: 0; /* Remove default padding */
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
+    margin: 0; 
+    padding: 0; 
+    width: 100%; 
+    height: 100%; 
     overflow-x: hidden; /* Prevent horizontal scroll */
   }
-  
+ 
   /* Full-width container for assignments */
   .assignments-container {
-    padding: 2rem; /* Padding around the content */
-    width: 100vw; /* Full width of the parent container */
+    padding: 2rem; 
+    width: 100%; 
     box-sizing: border-box; /* Include padding and border in element's total width and height */
-    background-color: #000; /* Black background for the container */
-    margin-top: 60px; /* Adjust margin to avoid overlapping with navbar */
-    margin-bottom: 2rem; /* Space below the container */
+ 
+    margin-top: 60px; 
+    margin-bottom: 2rem; 
   }
   
   /* Heading styling */
   .assignments-container h1 {
-    margin: 0 0 1rem 0; /* Space below heading */
-    padding: 0; /* Remove padding */
-    font-size: 2rem; /* Font size for heading */
-    color: #ffffff; /* White color for better contrast against black */
+    margin: 0 0 1rem 0; 
+    padding: 1rem; 
+    font-size: 2rem; 
+    color: #ffffff; 
   }
   
   /* Card container */
   .card-container {
-    padding: 2rem; /* Padding inside card container */
-    border: 1px solid #ddd; /* Border around card container */
-    border-radius: 8px; /* Rounded corners for card container */
-    background-color: #f9f9f9; /* Background color for card container */
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional shadow for card container */
-    width: 100%; /* Full width of viewport */
-    max-width: 100%; /* Full width of viewport */
-    box-sizing: border-box; /* Include padding and border in element's total width and height */
-    margin-top: 1rem; /* Space above card container */
+    padding: 2rem; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    background-color: #f9f9f9; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+    width: 100%; 
+    max-width: 100%; 
+    box-sizing: border-box; 
+    margin-top: 1rem; 
   }
   
   /* Grid layout for assignment cards */
   .assignments-grid {
-    display: flex; /* Flex layout for vertical stacking */
-    flex-direction: column; /* Stack cards vertically */
-    gap: 1.5rem; /* Space between cards */
+    display: flex; 
+    flex-direction: column; 
+    gap: 1.5rem; 
   }
   
   /* Individual assignment card */
   .assignment-card {
-    background-color: #ffffff; /* White background */
-    border: 1px solid #ddd; /* Light border */
-    border-radius: 8px; /* Rounded corners */
-    padding: 1.5rem; /* Padding inside card */
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional shadow for better visibility */
+    background-color: #ffffff; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    padding: 1.5rem; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
-    width: 100%; /* Full width of card container */
-    max-width: 100%; /* Full width of card container */
-    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    width: 100%; 
+    max-width: 100%; 
+    box-sizing: border-box; 
   }
   
   .assignment-card:hover {
@@ -65,32 +65,32 @@ html, body {
   
   /* Card title */
   .assignment-title {
-    font-size: 1.2rem; /* Font size for title */
-    margin-bottom: 0.5rem; /* Space below title */
-    color: #333; /* Dark color for title */
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #333;
   }
   
   /* Card description */
   .assignment-description {
-    font-size: 1rem; /* Font size for description */
-    margin-bottom: 1rem; /* Space below description */
-    color: #666; /* Description color for better contrast */
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: #666; 
   }
   
   /* Button styling */
   .assignment-button {
-    display: inline-block; /* Inline block for button */
-    background-color: #007bff; /* Blue background color */
-    color: #ffffff; /* White text color */
-    text-decoration: none; /* Remove underline */
-    padding: 0.5rem 1rem; /* Padding inside button */
-    border-radius: 4px; /* Rounded corners */
-    font-size: 1rem; /* Font size for button */
-    text-align: center; /* Center text */
+    display: inline-block; 
+    background-color: #007bff; 
+    color: #ffffff; 
+    text-decoration: none; 
+    padding: 0.5rem 1rem; 
+    border-radius: 4px; 
+    font-size: 1rem; 
+    text-align: center; 
     transition: background-color 0.3s ease; /* Smooth background color transition */
   }
   
   .assignment-button:hover {
-    background-color: #0056b3; /* Darker blue color on hover */
+    background-color: #0056b3; 
   }
   

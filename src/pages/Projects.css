@@ -1,23 +1,21 @@
-.page-container {
+.projects-container {
     padding: 2rem;
-    margin-top: 60px; /* Adjust for fixed navbar */
+    max-width: 1200px;
+    margin: 60px ;
   }
-  
-  .content-card {
-    background-color: #ffffff; /* White background for the card */
-    border: 1px solid #ddd; /* Light border */
-    border-radius: 8px; /* Rounded corners */
-    padding: 2rem; /* Padding inside card */
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional shadow */
-    max-width: 800px; /* Max width for content */
-    margin: 0 auto; /* Center horizontally */
-  }
+
   
   h1 {
-    margin-bottom: 1rem;
-    color: #ffffff; /* White color for better contrast on dark background */
-    background-color: #333; /* Dark background for the heading */
-    padding: 0.5rem; /* Padding for readability */
-    border-radius: 4px; /* Rounded corners for heading background */
+    font-family: 'Source Code Pro', monospace;
+    color: #003366; 
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem; 
+    justify-content: center; 
   }
   
