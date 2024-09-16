@@ -1,10 +1,10 @@
 
 import { HashRouter as Router,Route,Routes} from 'react-router-dom';
 import About from './pages/About.jsx'
-import WorkExperience from './pages/WorkExperience.js';
-import Projects from './pages/Projects.js';
-import Contact from './pages/Contact.js';
-import Assignments from './pages/Assignments.js';
+import WorkExperience from './pages/WorkExperience.jsx';
+import Projects from './pages/Projects.jsx';
+import Contact from './pages/Contact.jsx';
+import Assignments from './pages/Assignments.jsx';
 import NavBar from './components/Navbar.jsx';
 
 import './App.css'
