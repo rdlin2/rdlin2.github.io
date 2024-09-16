@@ -6,12 +6,12 @@ const Projects = () => {
     {
       title: 'Project One',
       description: 'Brief description of Project One.',
-      link: 'https://github.com/yourusername/project-one'
+      link: 'https://github.com/'
     },
     {
       title: 'Project Two',
       description: 'Brief description of Project Two.',
-      link: 'https://github.com/yourusername/project-two'
+      link: 'https://github.com/'
     },
 
   ];

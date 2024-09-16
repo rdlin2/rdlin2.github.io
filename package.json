@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://rdlin2.github.io/rdlin2-github.io",
+  "homepage": "https://rdlin2.github.io",
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",

@@ -3,13 +3,13 @@ import './Assignments.css';
 
 const assignments = [
   {
-    title: 'Assignment 1',
-    description: 'A brief description of the first assignment.',
-    githubLink: 'https://github.com/yourusername/assignment1'
+    title: 'Assignment 0',
+    description: 'In this assignment I created a simple website using React. I made each section of the navbar its own separate page.',
+    githubLink: 'https://github.com/rdlin2/rdlin2.github.io'
   },
   {
-    title: 'Assignment 2',
-    description: 'A brief description of the second assignment.',
+    title: 'Assignment 1',
+    description: 'TBD',
     githubLink: 'https://github.com/yourusername/assignment2'
   },
   // Add more assignments as needed
