@@ -1,4 +1,3 @@
-
 import './Assignments.css';
 
 const assignments = [

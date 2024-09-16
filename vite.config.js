@@ -5,5 +5,8 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   // base:'/',
-  base: '/rdlin2-github.io', 
+  base: '/rdlin2-github.io/', 
+  build:{
+    outDir:'dist',
+  },
 })
