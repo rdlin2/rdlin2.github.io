@@ -6,11 +6,7 @@ const assignments = [
     description: 'This is a simple Python script adding 2 numbers and printing them the sum to command line',
     githubLink: 'https://github.com/rdlin2/rlin2-assignment-0'
   },
-  {
-    title: 'Assignment 1',
-    description: 'TBD',
-    githubLink: 'https://github.com/yourusername/assignment2'
-  },
+
   // Add more assignments as needed
 ];
 
@@ -24,7 +20,7 @@ const Assignments = () => {
             <div key={index} className="assignment-card">
               <h2 className="assignment-title">{assignment.title}</h2>
               <p className="assignment-description">{assignment.description}</p>
-              <a href={assignment.githubLink} target="_blank" rel="noopener noreferrer" className="assignment-button">View on GitHub</a>
+              <a href={assignment.githubLink} target="_blank" rel="noopener noreferrer" className="assignment-button">Github Link</a>
             </div>
           ))}
         </div>
