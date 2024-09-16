@@ -3,8 +3,8 @@ import './Assignments.css';
 const assignments = [
   {
     title: 'Assignment 0',
-    description: 'In this assignment I created a simple website using React. I made each section of the navbar its own separate page.',
-    githubLink: 'https://github.com/rdlin2/rdlin2.github.io'
+    description: 'This is a simple Python script adding 2 numbers and printing them the sum to command line',
+    githubLink: 'https://github.com/rdlin2/rlin2-assignment-0'
   },
   {
     title: 'Assignment 1',
